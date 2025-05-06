@@ -1,4 +1,3 @@
-const path = require("path");
 const cors = require("cors");
 const morgan = require("morgan");
 const express = require("express");
@@ -29,4 +28,4 @@ app.all("*", (_, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, console.log(`Server Started @ ${PORT}`));
+app.listen(PORT, () => console.log(`Server Started @ ${PORT}`));
