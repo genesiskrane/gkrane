@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Catch All
-app.all("*", (_, res) => {
+app.all("/{*any}", (req, res) => {
 	res.json({});
 });
 
