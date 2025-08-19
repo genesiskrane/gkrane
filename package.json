@@ -4,5 +4,9 @@
   "description": "An  Enterprise JavaScript Library",
   "main": "index.js",
   "author": "Genesis Krane & Augment Chinedu",
-  "license": "ISC"
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "firebase": "^12.1.0"
+  }
 }
