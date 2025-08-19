@@ -1,0 +1,8 @@
+{
+  "name": "gkrane",
+  "version": "1.0.0",
+  "description": "An  Enterprise JavaScript Library",
+  "main": "index.js",
+  "author": "Genesis Krane & Augment Chinedu",
+  "license": "ISC"
+}
