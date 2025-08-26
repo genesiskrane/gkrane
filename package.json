@@ -1,12 +1,9 @@
 {
   "name": "gkrane",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An  Enterprise JavaScript Library",
   "main": "index.js",
-  "author": "Genesis Krane & Augment Chinedu",
+  "author": "Genesis Krane & Augment Plus",
   "license": "ISC",
-  "private": false,
-  "dependencies": {
-    "firebase": "^12.1.0"
-  }
+  "private": false
 }
