@@ -1,6 +1,6 @@
 {
   "name": "gkrane",
-  "version": "3.0.3",
+  "version": "3.0.6",
   "description": "A Code Manager",
   "main": "index.js",
   "author": "Genesis Krane",
@@ -9,7 +9,14 @@
   "bin": {
     "gkrane": "index.js"
   },
+  "scripts": {
+    "dev": "node --watch core/index.js",
+    "test": "jest --watch"
+  },
   "files": [
     "*"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
 }
