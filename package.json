@@ -1,9 +1,15 @@
 {
   "name": "gkrane",
-  "version": "2.0.0",
-  "description": "An  Enterprise JavaScript Library",
+  "version": "3.0.3",
+  "description": "A Code Manager",
   "main": "index.js",
-  "author": "Genesis Krane & Augment Plus",
+  "author": "Genesis Krane",
   "license": "ISC",
-  "private": false
+  "private": false,
+  "bin": {
+    "gkrane": "index.js"
+  },
+  "files": [
+    "*"
+  ]
 }
