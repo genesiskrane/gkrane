@@ -1,9 +1,6 @@
 const path = require("path");
 const { spawn } = require("child_process");
 
-// Dynamically load data/index.js from project root
-const dataPath = path.join(process.cwd(), "data", "index.js");
-const { apps = [], games = [] } = require(dataPath);
 
 // Root folder containing apps/ and games/
 const rootDir = process.cwd();
